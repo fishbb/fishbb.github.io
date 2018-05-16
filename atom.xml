@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://fishbb.github.io/"/>
-  <updated>2018-03-27T22:24:25.000Z</updated>
+  <updated>2018-03-27T22:37:57.000Z</updated>
   <id>http://fishbb.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://fishbb.github.io//%E4%B8%8D%E8%A6%81%E7%9C%8B%E4%B9%A6%EF%BC%8C%E4%B8%8D%E8%A6%81%E4%B8%8D%E8%A6%81%EF%BC%81%EF%BC%81/"/>
     <id>http://fishbb.github.io//不要看书，不要不要！！/</id>
     <published>2018-03-26T23:28:43.000Z</published>
-    <updated>2018-03-27T22:24:25.000Z</updated>
+    <updated>2018-03-27T22:37:57.000Z</updated>
     
     <content type="html"><![CDATA[<p>以本文致敬许多精彩的幼儿读本，它们让我和小鱼儿共处的时候更加平等，更富趣味——虽然我是妈妈，但是所有的读本对我来说一样输送了崭新的知识和信息，有时候还是崭新的单词。</p>
 <p><img src="/images/abc.jpg" alt="abc"></p>
@@ -1677,9 +1677,9 @@
     <link href="http://fishbb.github.io//%E6%9C%89%E4%BA%86%E5%A8%83%E7%A5%9E%E6%8A%80%E5%85%BB%E6%88%90%E4%B9%8B%E5%8A%A8%E6%89%8B%E5%8A%A8%E8%84%9A/"/>
     <id>http://fishbb.github.io//有了娃神技养成之动手动脚/</id>
     <published>2016-10-14T23:13:04.000Z</published>
-    <updated>2016-10-14T23:13:04.000Z</updated>
+    <updated>2018-05-16T20:56:23.000Z</updated>
     
-    <content type="html"><![CDATA[<p></p><p align="center"><br><img src="http://fishbb.coding.me/images/read.jpg" alt="read"></p>
+    <content type="html"><![CDATA[<p></p><p align="center"><br><img src="/images/read.jpg" alt="read"></p>
 <p>有了娃，抱娃时还能干点别的吗？</p>
 <p>答案是 <strong><em>Yes!</em></strong></p>
 <p>但是这个场景就十分狼狈了。</p>
@@ -1689,7 +1689,7 @@
 </blockquote>
 <p>每次脑补这样的场景，都让人自叹弗如。</p>
 <p>不过算啦，这是一个临吃饭前分分钟都能整出 gragh theory 的非正常人类。</p>
-<p></p><p align="center"><br><img src="http://fishbb.coding.me/images/bridgeOfKonigberg.jpg" alt="bridge problem"></p>
+<p></p><p align="center"><br><img src="/images/bridgeOfKonigberg.jpg" alt="bridge problem"></p>
 <p>普通人干不了这种 multitasks。而且作为一个妈妈，与小宝宝如此和谐共存的场景，少之又少。</p>
 <h2 id="笼中鸟比这还自由"><a href="#笼中鸟比这还自由" class="headerlink" title="笼中鸟比这还自由"></a>笼中鸟比这还自由</h2><p>在月子里的时候，作为一个无法正常睡眠的妈妈，苦不堪言。</p>
 <p>有一次，我忍不住向姨妈妈抱怨：</p>
@@ -1714,7 +1714,7 @@
 <p>有时候宝宝闹腾，你一会起身，一会坐椅子，一会蹲床上，一会出门，一会进门，一不小心就离目标物远了。这种时候怎么办呢？</p>
 <h2 id="下盘功夫"><a href="#下盘功夫" class="headerlink" title="下盘功夫"></a>下盘功夫</h2><p>感谢人类还长了两条腿，以及两只脚。</p>
 <p>记得怀孕时，有一个刷爆朋友圈的视频。那视频讲的是无臂女人任吉美的故事。她天生没有胳膊，她的脚就是她的手，而且她的脚比一般人的手还巧，抓螃蟹、穿针引线、洗衣洗菜包饺子、穿衣吃饭，甚至洗牌打牌，俱不在话下。</p>
-<p></p><p align="center"><br><img src="http://fishbb.coding.me/images/renjimei.jpg" alt="任吉美"></p>
+<p></p><p align="center"><br><img src="/images/renjimei.jpg" alt="任吉美"></p>
 <p>当然这样的事情，again, 普通人干不了。(<em>谁让我们天生长了胳膊、就懒怠了腿脚呢？</em>)</p>
 <p>我没有大长腿，脚趾也很笨，属于标配。然而坐月子的时候，我突然发现自己的脚除了游泳走路跑步，居然还可以实现一些其他功能，而这些对于一个经常自力更生带娃的妈妈至关重要。</p>
 <p>如果我发现自己坐在躺椅上，而杂志在床脚，伸出腿去，大脚趾和食趾一卡，然后小心翼翼收腿，大部分时候可以解决问题。</p>
@@ -1734,14 +1734,15 @@
 <p>真的有执勤老师，那就是先生，他会希望我和宝宝同时进退，以备第二天的挑战和工作（<em>注：产假短得让人无语</em>）。</p>
 <p>当然了，一个男人很难理解一个妈妈渴望有几分钟自我空间的心情。</p>
 <p>这种时候，腿脚灵便就更重要啦。稍有动静，我便悄无声息一个凌波微步躺床上啦。</p>
-<p></p><p align="center"><br><img src="http://fishbb.coding.me/images/ok.jpg" alt="ok"></p>
+<p></p><p align="center"><br><img src="/images/ok.jpg" alt="ok"></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;http://fishbb.coding.me/images/read.jpg&quot; alt=&quot;read&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br&gt;&lt;img src=&quot;/images/read.jpg&quot; alt=&quot;read&quot;&gt;&lt;/p&gt;
 &lt;p&gt;有了娃，抱娃时还能干点别的吗？&lt;/p&gt;
-&lt;p&gt;答案是 &lt;strong&gt;&lt;em&gt;Ye
+&lt;p&gt;答案是 &lt;strong&gt;&lt;em&gt;Yes!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p
     
     </summary>
     
