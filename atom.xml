@@ -701,7 +701,7 @@
     <link href="http://fishbb.github.io//2017-11-26-%E6%88%90%E4%BB%99%E8%AE%B0/"/>
     <id>http://fishbb.github.io//2017-11-26-成仙记/</id>
     <published>2017-11-27T05:02:59.000Z</published>
-    <updated>2017-11-27T05:56:46.000Z</updated>
+    <updated>2018-08-16T03:45:22.468Z</updated>
     
     <content type="html"><![CDATA[<p><img src="/images/fly.jpg" alt="fly.jpg"></p>
 <p>老人今年70了，福禄双全，儿孙绕膝。生活想有多美满，就能多美满；人间万事万态，若有他未曾经历享受过的，而各位看官能举出来的，那一定是凤毛麟角。</p>
@@ -760,7 +760,9 @@
       <category term="大鱼儿的小池塘" scheme="http://fishbb.github.io/categories/%E5%A4%A7%E9%B1%BC%E5%84%BF%E7%9A%84%E5%B0%8F%E6%B1%A0%E5%A1%98/"/>
     
     
-      <category term="-原创 -微信" scheme="http://fishbb.github.io/tags/%E5%8E%9F%E5%88%9B-%E5%BE%AE%E4%BF%A1/"/>
+      <category term="原创" scheme="http://fishbb.github.io/tags/%E5%8E%9F%E5%88%9B/"/>
+    
+      <category term="微信" scheme="http://fishbb.github.io/tags/%E5%BE%AE%E4%BF%A1/"/>
     
   </entry>
   
@@ -829,7 +831,7 @@
     <link href="http://fishbb.github.io//%E7%9F%B3%E5%A4%B4%E5%89%AA%E5%88%80%E5%B8%83/"/>
     <id>http://fishbb.github.io//石头剪刀布/</id>
     <published>2017-08-06T20:46:36.000Z</published>
-    <updated>2017-08-06T22:43:30.000Z</updated>
+    <updated>2018-08-16T03:44:30.182Z</updated>
     
     <content type="html"><![CDATA[<p>有了小鱼儿，我们家的家庭关系变得更加好玩了。原因很简单，我们家变成了一个三体问题。</p>
 <p><img src="/images/threeBodyProblem.gif" alt="三体"></p>
@@ -882,7 +884,7 @@
     
       <category term="育儿" scheme="http://fishbb.github.io/tags/%E8%82%B2%E5%84%BF/"/>
     
-      <category term="啃书" scheme="http://fishbb.github.io/tags/%E5%95%83%E4%B9%A6/"/>
+      <category term="读书" scheme="http://fishbb.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
     
       <category term="数学" scheme="http://fishbb.github.io/tags/%E6%95%B0%E5%AD%A6/"/>
     
@@ -1021,7 +1023,7 @@
     <link href="http://fishbb.github.io//%E7%9B%9B%E4%B8%96%E7%BE%8E%E9%A2%9C/"/>
     <id>http://fishbb.github.io//盛世美颜/</id>
     <published>2017-03-07T00:27:19.000Z</published>
-    <updated>2017-03-07T04:27:04.000Z</updated>
+    <updated>2018-08-16T03:44:11.403Z</updated>
     
     <content type="html"><![CDATA[<p>其实这不是《Stories about your life and others》这个小说集的读后感，而是我读完后对各个故事的重命名和复述。</p>
 <p>今年大概只看这么一本小说就够本了（看这本是因为电影 Arrival 和 Mathematica的关系）。在我看来，小说的价值就在天马行空和光怪陆离。小说可以忽略技术细节，可以摒弃现有知识的桎梏，可以遨游在此生此世之外。一句话，小说的脑洞开得再大也不嫌大。</p>
@@ -1103,7 +1105,7 @@
     
       <category term="微信" scheme="http://fishbb.github.io/tags/%E5%BE%AE%E4%BF%A1/"/>
     
-      <category term="啃书" scheme="http://fishbb.github.io/tags/%E5%95%83%E4%B9%A6/"/>
+      <category term="读书" scheme="http://fishbb.github.io/tags/%E8%AF%BB%E4%B9%A6/"/>
     
   </entry>
   
