@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+
+
+  <html lang="en" class="light page-page">
+
+
+<head>
+  <meta charset="utf-8">
+  
+  <title>Fishbb 冒泡的小鱼儿</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  
+    <meta name="keywords" content="library, technology, baby, book,育儿, 教育, 胎教, 图书, 儿童, 孩子, reading" />
+  
+
+  <meta name="description" content="Lou, D. (2019), “Two fast prototypes of web-based augmented reality enhancement for books”, Library Hi Tech News, Vol. ahead-of-print No. ahead-of-print. https://doi.org/10.1108/LHTN-08-2019-0057 Two">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Fishbb 冒泡的小鱼儿">
+<meta property="og:url" content="http://fishbb.github.io/article/ARBarcode.html">
+<meta property="og:site_name" content="Fishbb 冒泡的小鱼儿">
+<meta property="og:description" content="Lou, D. (2019), “Two fast prototypes of web-based augmented reality enhancement for books”, Library Hi Tech News, Vol. ahead-of-print No. ahead-of-print. https://doi.org/10.1108/LHTN-08-2019-0057 Two">
+<meta property="og:image" content="http://fishbb.github.io/images/goodreads%20API%20result.png">
+<meta property="og:image" content="http://fishbb.github.io/images/arjs.png">
+<meta property="og:image" content="http://fishbb.github.io/images/4_star.png">
+<meta property="og:image" content="http://fishbb.github.io/images/unknown.png">
+<meta property="og:image" content="http://fishbb.github.io/images/8thwall0.png">
+<meta property="og:image" content="http://fishbb.github.io/images/8thwall1.png">
+<meta property="og:updated_time" content="2019-10-24T18:39:04.604Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Fishbb 冒泡的小鱼儿">
+<meta name="twitter:description" content="Lou, D. (2019), “Two fast prototypes of web-based augmented reality enhancement for books”, Library Hi Tech News, Vol. ahead-of-print No. ahead-of-print. https://doi.org/10.1108/LHTN-08-2019-0057 Two">
+<meta name="twitter:image" content="http://fishbb.github.io/images/goodreads%20API%20result.png">
+
+  
+    <link rel="alternate" href="/atom.xml" title="Fishbb 冒泡的小鱼儿" type="application/atom+xml">
+  
+
+  
+    <link rel="icon" href="/images/favicon.ico">
+  
+
+  <link href="/css/styles.css?v=028c63b1" rel="stylesheet">
+
+
+  
+    <link rel="stylesheet" href="/css/personal-style.css">
+  
+
+  
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-85101496-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+<!-- End Google Analytics -->
+
+
+  
+
+</head>
+
+<body>
+
+
+  
+    <span id="toolbox-mobile" class="toolbox-mobile">Index</span>
+  
+
+  <div class="post-header CENTER">
+   
+  <div class="toolbox">
+    <a class="toolbox-entry" href="/">
+      <span class="toolbox-entry-text">Index</span>
+      <i class="icon-angle-down"></i>
+      <i class="icon-home"></i>
+    </a>
+    <ul class="list-toolbox">
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/archives/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            博客
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/article"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            Article
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/project"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            Project
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="http://fishbb.pythonanywhere.com/blog/"
+            rel="noopener noreferrer"
+            target="_blank"
+            >
+            Blog
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/about/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            About
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/atom.xml"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            RSS
+          </a>
+        </li>
+      
+        <li class="item-toolbox">
+          <a
+            class="CIRCLE"
+            href="/search/"
+            rel="noopener noreferrer"
+            target="_self"
+            >
+            Search
+          </a>
+        </li>
+      
+    </ul>
+  </div>
+
+
+</div>
+
+
+  <div id="toc" class="toc-article">
+    <strong class="toc-title">Content</strong>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Two-Fast-Prototypes-of-Web-based-Augmented-Reality-Enhancement-for-Books"><span class="toc-text">Two Fast Prototypes of Web-based Augmented Reality Enhancement for Books</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Introduction"><span class="toc-text">Introduction</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Explanation-on-AR-and-AR-Markers"><span class="toc-text">Explanation on AR and AR Markers</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#A-Web-based-Barcode-Reader"><span class="toc-text">A Web-based Barcode Reader</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Use-a-Data-Pool-as-Connector"><span class="toc-text">Use a Data Pool as Connector</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Generate-On-the-fly-AR-Content"><span class="toc-text">Generate On-the-fly AR Content</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#One-Major-Drawback-and-An-Alternative-Method"><span class="toc-text">One Major Drawback and An Alternative Method</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Conclusion"><span class="toc-text">Conclusion</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Abstract"><span class="toc-text">Abstract</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Purpose"><span class="toc-text">Purpose</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Design-methodology-approach"><span class="toc-text">Design/methodology/approach</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Findings"><span class="toc-text">Findings</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Research-limitations-implications"><span class="toc-text">Research limitations/implications</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Practical-implications"><span class="toc-text">Practical implications</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Social-implications"><span class="toc-text">Social implications</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Originality-value"><span class="toc-text">Originality/value</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Keywords"><span class="toc-text">Keywords</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Author-Accepted-Manuscript-AAM-Deposit-License"><span class="toc-text">Author Accepted Manuscript (AAM) Deposit License</span></a></li></ol></li></ol>
+  </div>
+
+
+
+<div class="content content-post CENTER">
+   <article id="page-undefined" class="article article-type-page" itemprop="blogPost">
+  <header class="article-header">
+    <h1 class="post-title">(no title)</h1>
+
+    <div class="article-meta">
+      <span>
+        <i class="icon-calendar"></i>
+        <span>2019.10.24</span>
+      </span>
+
+      
+        <span class="article-author">
+          <i class="icon-user"></i>
+          <span>fishbb</span>
+        </span>
+      
+
+      
+
+
+      
+        <span>
+          <i class="icon-comment"></i>
+          <a href="http://fishbb.github.io/article/ARBarcode.html#disqus_thread"></a>
+        </span>
+      
+
+    </div>
+  </header>
+
+  <div class="article-content">
+    
+      <p><a href="https://www.emerald.com/insight/search?q=Dan%20Lou" target="_blank" rel="external">Lou, D.</a> (2019), “Two fast prototypes of web-based augmented reality enhancement for books”, <em>Library Hi Tech News</em>, Vol. ahead-of-print No. ahead-of-print. <a href="https://doi.org/10.1108/LHTN-08-2019-0057" target="_blank" rel="external">https://doi.org/10.1108/LHTN-08-2019-0057</a></p>
+<h1 id="Two-Fast-Prototypes-of-Web-based-Augmented-Reality-Enhancement-for-Books"><a href="#Two-Fast-Prototypes-of-Web-based-Augmented-Reality-Enhancement-for-Books" class="headerlink" title="Two Fast Prototypes of Web-based Augmented Reality Enhancement for Books"></a>Two Fast Prototypes of Web-based Augmented Reality Enhancement for Books</h1><p><strong>By Dan Lou</strong></p>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>As Author and Envisioneer M. Pell nicely put it, augmented reality (AR) is the incredible media to “surfacing the invisible”. AR is an interactive experience of blending computed-generated objects seamlessly into the view of the real world. In recent years, we have seen various AR applications that visualize the previously invisible data in different fields, from health care <a href="#ref2">[2]</a>, education, real estate <a href="#ref3">[3]</a> to indoor/outdoor navigations <a href="#ref4">[4]</a> . </p>
+<p>This makes one wonder what type of invisible data a library collection possesses that may appeal to our customers, as well as what could serve as the most cost-effective way to make that data visible through AR. </p>
+<p>Palo Alto City Library started to design and implement web-based AR in 2018. In a regional conference hosted by the Library, attendees were invited to open AR web pages on their smartphones and scan 2-D markers around the room to experience different AR scenes. The author has explained how such an AR solution was developed in a recent Code4Lib article  <a href="#ref5">[5]</a> , where she also suggested the idea of adopting the solution to enhance a library collection. But it is quite a different story when one tries to scale things up from an activity with only one AR marker and a few AR objects to the collection level with thousands of books to be associated to AR content. The major obstacle lies in finding a scalable and painless solution to create links between AR content and books. At title level, books already have their unique identifier – the ISBN number. Unfortunately, marker-based AR technology only accept two-dimensional (2-D) objects as markers, not the one-dimensional (1-D) EAN barcode (or ISBN barcode) used by books, for technical reasons. </p>
+<h2 id="Explanation-on-AR-and-AR-Markers"><a href="#Explanation-on-AR-and-AR-Markers" class="headerlink" title="Explanation on AR and AR Markers"></a>Explanation on AR and AR Markers</h2><p>Generally speaking, AR technology can be divided into two major categories: marker-based AR and markerless AR  <a href="#ref6">[6]</a> . Maker-based AR needs a specific marker to trigger an AR scene. With this method, the association between the marker and the AR scene is predefined. This is the technology used in the AR activity at Palo Alto City Library mentioned in the previous paragraph. In contrast, markerless AR doesn’t need special markers to identify the place where a virtual object should appear. Instead, it uses a technology called Simultaneous Location and Mapping (SLAM)  <a href="#ref7">[7]</a> to map an unknown environment in real time and to adjust virtual objects in it accordingly. Hence, markerless AR can render an AR scene realistically in almost any real-world environment. Pokemon Go is probably the best known example in this case. </p>
+<p>Based on this understanding, if a specific AR scene is designed to be triggered by a specific book, marker-based AR seems to be the more appropriate option at first glance: the association between a book and an AR scene should be unique and needs to be predefined. </p>
+<p>Unfortunately, it is a daunting task to adopt this solution for a library collection. From technical point of view, marker-based AR can only accept 2-D objects as markers, such as 2-D images, 2-D barcode, etc.. This is because a 2-D object, like a QR code, represents rich geometric patterns that contain the necessary information about the real world required by AR display: the position, the scale, and the rotation. Based on such information returned from a 2-D object, an AR application can then construct a believable AR scene. In contrast, the ISBN barcode is a 1-D barcode representing information in parallel lines instead of geometric patterns. Hence it is impossible to capture all the information required to build an AR scene.  <a href="#ref8">[8]</a> In the scenario of adopting marker-based AR for this project, not only a unique AR scene has to be developed for every book (or a group of books) in a collection, but also an additional AR marker has to be put on every book in order to get it associated with an AR scene. This can quickly turn into a time-consuming, labor-intensive and unsustainable project.</p>
+<p>On the other hand, the ideal solution is expected to function in a quite different way. A web-based barcode reader scans the ISBN barcode on a book. The returned ISBN information, instead of the data from a 2-D marker, is used to trigger a specific web-based AR scene. This ideal solution has three components: a web-based barcode reader, some attractive web-based AR content for every book, and a connection between the ISBN information returned by the barcode reader and the target AR content. </p>
+<h2 id="A-Web-based-Barcode-Reader"><a href="#A-Web-based-Barcode-Reader" class="headerlink" title="A Web-based Barcode Reader"></a>A Web-based Barcode Reader</h2><p>The web-based barcode reader used in the two prototypes is called QuaggaJS  <a href="#ref9">[9]</a>. QuaggaJS is a barcode reader entirely written in JavaScript that can be enabled in a web page. It supports real- time scanning of various types of barcodes, including the EAN barcode (ISBN barcode) . Any browser that supports the webcam video streaming function works with QuaggaJS, which leaves Internet Explore (IE) to be the major exception <a href="#ref10">[10]</a>.</p>
+<p>There are several different ways to implement QuaggaJS. The most straight-forward one is to download the whole package from the GitHub repository <a href="#ref9">[9]</a>. To build the prototypes, a good starting point is to adopt the example page in the package, <code>live_w_locator.html</code> , which is used to detect various barcodes from live camera streaming. This HTML file already provides a reference to QuaggaJS at the end of the <code>&lt;body&gt;</code> tag, and it also provides a reference to a customized javascript <code>live_w_locator.js</code> that utilizes the standard QuaggaJS functions.</p>
+<p>By modifying the decoder element in the <code>init</code> method in <code>live_w_locator.js</code>, it is possible to make the EAN barcode as the default barcode type to detect:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">decoder: &#123;</div><div class="line">    readers : [&#123;</div><div class="line">        format: &quot;ean_reader&quot;,</div><div class="line">        config: &#123;&#125;</div><div class="line">    &#125;]</div><div class="line">&#125;,</div></pre></td></tr></table></figure>
+<p>The web interface can be simplified to only keep the webcam stream view element in <code>live_w_locator.html</code>. The cleaned up  <code>live_w_locator.html</code> looks similar to this:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">&lt;!doctype HTML&gt;</div><div class="line">&lt;html&gt;</div><div class="line">  &lt;head&gt;</div><div class="line">    &lt;meta charset=&quot;utf-8&quot; /&gt;</div><div class="line">    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;</div><div class="line">    &lt;title&gt;Barcode Test&lt;/title&gt;</div><div class="line">    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, height=device-height, initial-scale=1, user-scalable=no&quot;&gt;</div><div class="line"></div><div class="line">  &lt;/head&gt;</div><div class="line">    &lt;body&gt;</div><div class="line">        &lt;div id=&quot;barcode-scanner&quot;&gt;</div><div class="line">        	&lt;div id=&quot;interactive&quot; class=&quot;viewport&quot;&gt;&lt;/div&gt;</div><div class="line">    	&lt;/div&gt;   </div><div class="line">        &lt;script src=&quot;../dist/quagga.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</div><div class="line">        &lt;script src=&quot;live_w_locator.js&quot; type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</div><div class="line">    &lt;/body&gt;</div><div class="line">&lt;/html&gt;</div></pre></td></tr></table></figure>
+<p>The author also made changes in Javascript and CSS to change the view of the video streaming display. To verify the returned ISBN information, the method <code>Quagga.onDetected(callback)</code> in <code>live_w_locator.js</code> was modified to log the ISBN information in console at this stage:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">console.log(code);</div></pre></td></tr></table></figure>
+<p>A working web-based barcode scanner is now in place. It scans EAN barcode and returns the ISBN information. </p>
+<h2 id="Use-a-Data-Pool-as-Connector"><a href="#Use-a-Data-Pool-as-Connector" class="headerlink" title="Use a Data Pool as Connector"></a>Use a Data Pool as Connector</h2><p>The next step is to use the obtained ISBN number as a unique identifier to query for relevant AR scenes.  The author tried to identify the invisible data that is worth displaying through AR for a library collection. </p>
+<p>Generally speaking, web-based AR content usually serves two purposes – to display additional data and information; and/or to create an aesthetic and entertaining effect. Therefore, for the prototypes, one has the option to use AR content to provide additional information about a book, to create some visual effect, or to accomplish both. </p>
+<p>The physical book already contains bibliographic information, including but not limited to title, author, publishing information, cover image, number of pages and the content of the book itself. However, it does not contain any real-time social-media-like information. For instance, the physical book usually does not contain the real-time rating information.</p>
+<p>On the other hand, the social cataloging website Goodreads has accumulated a decent amount of social-media-like data about books. What’s more, Goodreads provides an API for developers to access part of the data, including the average rating and count of ratings for many books. If this data is displayed in AR for books in a collection, it might be of interest to a reader. Alternatively, if a library’s catalog already provides an API to access similar data, it is recommended to use the library’s API instead of the Goodreads API in order to retrieve high quality and more community-centered information for the library’s specific collection. </p>
+<p>The author registered a developer key to start using the Goodreads API <a href="#ref11">[11]</a>  for the prototypes. The <code>search.books</code> API provides the ability to searche all books in the title, author and ISBN fields. The matched result is returned in XML format (Fig. 1).</p>
+<p><img src="/images/goodreads API result.png" alt="A snapshot of typical XML result returned from Goodreads search.books API"></p>
+<p>Fig 1. A snapshot of the typical XML result returned from Goodreads search.books API</p>
+<p>The Goodreads API request is built and fired on the fly when the web-based barcode reader detects an ISBN number. The <code>search.books</code> API  URL is constructed using the following format:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">https://www.goodreads.com/search?format=xml&amp;key=[DEVELOPER KEY]&amp;q=[QUERY]&quot;</div></pre></td></tr></table></figure>
+<p> <code>[DEVELOPER KEY]</code> is replaced with the real developer key registered at Goodreads, and <code>[QUERY]</code> is replaced with a real query, which is an ISBN number in this case. </p>
+<p>jQuery AJAX  <a href="#ref12">[12]</a> is used to handle the API request. AJAX is an acronym standing for Asynchronous JavaScript and XML . It can update a webpage without reloading the whole page. </p>
+<p>Below is some sample code to fetch and parse result from the Goodreads API using AJAX. </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">$.ajax(&#123;</div><div class="line">    url: goodreadsAPI,</div><div class="line">    dataType: &quot;xml&quot;,</div><div class="line">    success: function(xml) &#123;</div><div class="line">        $(xml).find(&quot;author&quot;).each(function()&#123;</div><div class="line">            author += $(this).find(&quot;name&quot;).text() + &quot;, &quot;;</div><div class="line">        &#125;);    </div><div class="line">        author = author.substring(0, author.length - 2);</div><div class="line">        title = $(xml).find(&quot;title&quot;).text();</div><div class="line">        rating_count = $(xml).find(&quot;ratings_count&quot;).text();</div><div class="line">        average_rating = $(xml).find(&quot;average_rating&quot;).text();                                         </div><div class="line">&#125;</div><div class="line">&#125;)</div></pre></td></tr></table></figure>
+<p>The parsed Goodreads API result is sent to the AR web page and meanwhile a redirection to that page takes place:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">window.location.href = &quot;models.html&amp;isbn=&quot;+code+&quot;&amp;title=&quot;+title+&quot;&amp;author=&quot;+author+&quot;&amp;average_rating=&quot;+average_rating+&quot;&amp;rating_count=&quot;+rating_count;</div></pre></td></tr></table></figure>
+<h2 id="Generate-On-the-fly-AR-Content"><a href="#Generate-On-the-fly-AR-Content" class="headerlink" title="Generate On-the-fly AR Content"></a>Generate On-the-fly AR Content</h2><p>Next step is to create the AR web page. With the rating data returned from Goodreads API, it is possible to generate on-the-fly AR scenes by scripting in A-Frame <a href="#ref13">[13]</a> and AR.js <a href="#ref14">[14]</a>.  A-Frame is an open source web framework for building virtual reality experiences which work on Vive, Rift, desktop and mobile platforms. AR.js is a web-based AR solution that is standard and works with any device with webgl <a href="#ref15">[15]</a>, webrtc <a href="#ref16">[16]</a>, and a camera.</p>
+<p>In the head of the AR HTML file, references to both the AR.js JavaScript library and the A-Frame JavaScript library were created.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&lt;head&gt;</div><div class="line">    &lt;script src=&quot;https://aframe.io/releases/0.9.1/aframe.min.js&quot;&gt;&lt;/script&gt;</div><div class="line">    &lt;script src=&quot;https://cdn.rawgit.com/jeromeetienne/AR.js/1.7.0/aframe/build/aframe-ar.js&quot;&gt;&lt;/script&gt;</div><div class="line">&lt;/head&gt;</div></pre></td></tr></table></figure>
+<p>In the body part of the same HTML file, an AR scene with the ability to use the webcam was created:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&lt;a-scene embedded arjs renderer=&quot;precision: mediump&quot;&gt;</div><div class="line">    &lt;a-entity camera look-controls&gt;</div><div class="line">    &lt;/a-entity&gt;    </div><div class="line">&lt;/a-scene&gt;</div></pre></td></tr></table></figure>
+<p>A-Frame offers flexible ways to control the scene and its entities by using JavaScript and DOM  <a href="#ref17">[17]</a> APIs. Hence it is possible to add new entities on the fly to the AR scene at the moment of receiving the parsed data from the Goodreads API. For example, the average rating’s number can get converted into a row of 3-D spheres, similar to the 2-D star ratings in plain old web pages. Below is the JavaScript code to add a row of complete spheres on the fly:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">var i;</div><div class="line">for (i = 0; i &lt; rating - 1; i++) &#123; </div><div class="line">    var sphereEl = document.createElement(&apos;a-sphere&apos;);</div><div class="line">    sphereEl.setAttribute(&apos;id&apos;, &apos;box&apos;);</div><div class="line">    sphereEl.setAttribute(&apos;radius&apos;, 0.1);</div><div class="line">    sphereEl.setAttribute(&apos;material-displacement&apos;,&apos;&apos;);</div><div class="line">    var x = -0.8 + i * 0.22;</div><div class="line">    var pos = x.toString().concat(&quot; -0.3 -3&quot;);</div><div class="line">    sphereEl.setAttribute(&apos;position&apos;,pos);</div><div class="line">    last_pos = x;</div><div class="line">    sphereEl.addEventListener(&apos;loaded&apos;, function () &#123;</div><div class="line">      console.log(&apos;sphere attached&apos;);</div><div class="line">      &#125;)</div></pre></td></tr></table></figure>
+<p>With this, the first prototype of AR enhancement for a library collection is completed. All three components are in place – a web page that scans the ISBN barcode, the Goodreads API that fetches relevant data by the returned ISBN number, and an AR scene created with the returned Goodreads metadata (Fig. 2). </p>
+<p><img src="/images/arjs.png" alt="First Protocol with AR.js and A-Frame"></p>
+<p>Fig. 2 Display AR rating information by scanning the ISBN barcode of the book <em>Green Eggs and Ham</em> in Safari browser on an iPad. The book has 550,228 ratings and an average rating of 4.30. AR content generated on the fly with A-Frame and AR.js.</p>
+<h2 id="One-Major-Drawback-and-An-Alternative-Method"><a href="#One-Major-Drawback-and-An-Alternative-Method" class="headerlink" title="One Major Drawback and An Alternative Method"></a>One Major Drawback and An Alternative Method</h2><p>There is one major drawback of the first prototype though. When a user tilts the mobile device, the virtual objects refuse to change accordingly. This is because AR.js only supports marker-based AR at the moment of writing this article. In other words, SLAM is not integrated into AR.js yet.  The first prototype fakes the effect of markerless AR with the marker-based AR.js, but the AR content displayed in this way lacks a marker as a reference point to track changes taking place in the real world. </p>
+<p>The alternative method is to use a real markerless AR technology. For example, 8th Wall  <a href="#ref18">[18]</a>, a company received the Best Auggie Reward in the category of Best Developer Tool at Augmented World Expo 2019  <a href="#ref19">[19]</a>, provides tools to make markerless web-based AR that works on every mobile device. The author registered the basic free tier in 8th Wall <a href="#ref20">[20]</a>. There are three different workspaces to choose from in 8th Wall console. The author created an AR Camera workspace, which is the most appropriate approach for the second prototype. A Web AR Camera in 8th Wall is a web page that contains one pre-defined AR object of your choice in an AR scene. This convenient solution comes with a cost. Since the page is predefined, it is impossible to embed Goodreads data into the AR scene on the fly. </p>
+<p>That being said, AR Camera can be used to create interactive and impressive AR experience. The free basic tier allows up to 10 AR Cameras and up to 1,000 views for all AR Cameras per month. It is not ideal but sufficient for the second prototype.</p>
+<p>Making an AR Camera in 8th Wall is fairly straightforward. From the author’s experience, the most difficult part lies in convert 3D objects into the required .GLB format, the only format acceptable by 8th Wall. The author downloaded 3D models from Free3D <a href="#ref21">[21]</a>, and converted them to .GLB files by using a combination of tools, such as Blender <a href="#ref22">[22]</a>, Unity <a href="#ref23">[23]</a> and an online 3D file converter <a href="#ref24">[24]</a>. One cool feature in AR Camera is that it supports two interaction modes with an uploaded 3D model – “hold to drag” or “tap to move”. A developer can choose which mode to use depending on the use case.</p>
+<p>Six AR Cameras were created in this way with a rating scale from 1 to 5, plus an unknown rating level for books that have no data available in Goodreads. For instance, an AR scene for a book with 5-star rating shows five stars on the top and a 3D medieval magic book model underneath it (Fig. 3). In contrast, an unknown rating level shows a question mark on the top and a 3D UFO model (Fig. 4).</p>
+<p><img src="/images/4_star.png" alt="four star in 8th Wall"></p>
+<p>Fig. 3 The design of an AR scene for a book with an average rating of four stars. </p>
+<p><img src="/images/unknown.png" alt="unkonwn rating in 8th Wall"></p>
+<p>Fig. 4 The design of an AR scene for a book with unknown average rating.</p>
+<p>A similar mechanism used in the first prototype was adopted to retrieve AR content. The average rating information returned from the Goodreads API is processed to fetch the matched 8th Wall AR Camera page, followed with a redirection to the page. The AR models are interactive and a user can tap on the screen to make it move around (Fig. 5 and Fig. 6).</p>
+<p><img src="/images/8thwall0.png" alt="Second Protocol with 8th Wall"></p>
+<p>Fig. 5 Display a rating of four stars and a 3D rocket model  by scanning the ISBN barcode of the book <em>Green Eggs and Ham</em> in Safari browser on an iPad. AR content generated with 8th Wall AR Camera.</p>
+<p><img src="/images/8thwall1.png" alt="Second Protocol with 8th Wall"></p>
+<p>Fig. 6 A user can tap on the screen to make the 3D rocket in Fig.5 flying around.</p>
+<h2 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h2><p>With the advancement of web-based AR technologies and the promising of faster internet speed,  the prototypes discussed in this article show a promising future where physical collections inside libraries can become more interactive and attractive by blurring the line of reality and virtuality. </p>
+<p>The two prototypes are published to the Internet via Github Pages <a href="#ref25">[25]</a>. Anyone who is interested can bookmark the web pages and start testing with different books. With the first URL <a href="#ref26">[26]</a> that utilizes AR.js, one can test it out on almost any modern devices, such as laptops, computers, smartphones and tablets. With the second URL that integrated with 8th Wall Cameras <a href="#ref27">[27]</a>, one can experience the AR content with mobile devices before the 1,000 views cap per month is met. </p>
+<p><a id="ref1"></a>[1] DFREE (2018). <em>Keeping Up With… Augmented Reality</em>. [online] Association of College &amp; Research Libraries (ACRL). Available at: <a href="http://www.ala.org/acrl/publications/keeping_up_with/ar" target="_blank" rel="external">http://www.ala.org/acrl/publications/keeping_up_with/ar</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref2"></a>[2] PBS NewsHour. (2019). <em>Virtual reality allows neurosurgery patients to ‘tour’ their own brains</em>. [online] Available at: <a href="https://www.pbs.org/newshour/show/virtual-reality-allows-neurosurgery-patients-to-tour-their-own-brains" target="_blank" rel="external">https://www.pbs.org/newshour/show/virtual-reality-allows-neurosurgery-patients-to-tour-their-own-brains</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref3"></a>[3] Young Entrepreneur Council (2019). Building AR/VR Solutions That Appeal to Consumers: Three Tips For Entrepreneurs. <em>Forbes</em>. [online] 10 Jul. Available at: <a href="https://www.forbes.com/sites/theyec/2019/07/10/building-arvr-solutions-that-appeal-to-consumers-three-tips-for-entrepreneurs/#1dee30a465e1" target="_blank" rel="external">https://www.forbes.com/sites/theyec/2019/07/10/building-arvr-solutions-that-appeal-to-consumers-three-tips-for-entrepreneurs/#1dee30a465e1</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref4"></a>[4] Grey, E. (2018). <em>Sweden trials augmented reality in the country’s busiest train station</em>. [online] Railway Technology. Available at: <a href="https://www.railway-technology.com/features/sweden-ar-station-navigation/" target="_blank" rel="external">https://www.railway-technology.com/features/sweden-ar-station-navigation/</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref5"></a>[5] Lou, D. (2019). Create Efficient, Platform-neutral, Web-Based Augmented Reality Content in the Library. <em>Code4Lib Journal</em>, [online] (45). Available at: <a href="https://journal.code4lib.org/articles/14632" target="_blank" rel="external">https://journal.code4lib.org/articles/14632</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref6"></a>[6] Trekk.com. (2017). <em>Marker and Markerless Augmented Reality</em>. [online] Available at: <a href="https://www.trekk.com/insights/marker-and-markerless-augmented-reality" target="_blank" rel="external">https://www.trekk.com/insights/marker-and-markerless-augmented-reality</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref7"></a>[7] Wikipedia Contributors (2019). <em>Simultaneous localization and mapping</em>. [online] Wikipedia. Available at: <a href="https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping" target="_blank" rel="external">https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref8"></a>[8] jetmarkingadmin (2018). <em>The Difference Between 1D and 2D Barcodes</em>. [online] Jet Marking. Available at: <a href="https://jet-marking.com/difference-1d-2d-barcodes/" target="_blank" rel="external">https://jet-marking.com/difference-1d-2d-barcodes/</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref9"></a>[9] Github.io. (2017). <em>QuaggaJS, an advanced barcode-reader written in JavaScript</em>. [online] Available at: <a href="https://serratus.github.io/quaggaJS/" target="_blank" rel="external">https://serratus.github.io/quaggaJS/</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref10"></a>[10] Caniuse.com. (2019). <em>Can I use… Support tables for HTML5, CSS3, etc</em>. [online] Available at: <a href="https://caniuse.com/#feat=stream" target="_blank" rel="external">https://caniuse.com/#feat=stream</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref11"></a>[11] Goodreads.com. (2015). <em>API</em>. [online] Available at: <a href="https://www.goodreads.com/api/index" target="_blank" rel="external">https://www.goodreads.com/api/index</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref12"></a>[12] JS Foundation - js.foundation (2014). <em>jQuery.ajax() | jQuery API Documentation</em>. [online] Jquery.com. Available at: <a href="https://api.jquery.com/jquery.ajax/" target="_blank" rel="external">https://api.jquery.com/jquery.ajax/</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref13"></a>[13] A-Frame. (2019). <em>A-Frame – Make WebVR</em>. [online] Available at: <a href="https://aframe.io/" target="_blank" rel="external">https://aframe.io/</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref14"></a>[14] jeromeetienne (2019). <em>jeromeetienne/AR.js</em>. [online] GitHub. Available at: <a href="https://github.com/jeromeetienne/AR.js" target="_blank" rel="external">https://github.com/jeromeetienne/AR.js</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref15"></a>[15] WebGL - OpenGL ES for the Web (2011). <em>WebGL - OpenGL ES for the Web</em>. [online] The Khronos Group. Available at: <a href="https://www.khronos.org/webgl/" target="_blank" rel="external">https://www.khronos.org/webgl/</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref16"></a>[16] Webrtc.org. (2017). <em>WebRTC Home | WebRTC</em>. [online] Available at: <a href="https://webrtc.org/" target="_blank" rel="external">https://webrtc.org/</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref17"></a>[17] MDN Web Docs. (2019). <em>Introduction to the DOM</em>. [online] Available at: <a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction" target="_blank" rel="external">https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref18"></a>[18] 8thwall.com. (2018). <em>8th Wall | Augmented Reality</em>. [online] Available at: <a href="https://www.8thwall.com/" target="_blank" rel="external">https://www.8thwall.com/</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref19"></a>[19] Awexr.com. (2019). <em>Announcing the AWE 2019 Tenth Annual Auggie Award Winners by AWE Team</em>. [online] Available at: <a href="https://www.awexr.com/blog/91-announcing-the-awe-2019-tenth-annual-auggie-award-" target="_blank" rel="external">https://www.awexr.com/blog/91-announcing-the-awe-2019-tenth-annual-auggie-award-</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref20"></a>[20] 8thwall.com. (2019). <em>8th Wall Console</em>. [online] Available at: <a href="https://console.8thwall.com/sign-up?type=camera" target="_blank" rel="external">https://console.8thwall.com/sign-up?type=camera</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref21"></a>[21] Free3d.com. (2018). <em>3D Models for Free - Free3D.com</em>. [online] Available at: <a href="https://free3d.com/" target="_blank" rel="external">https://free3d.com/</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref22"></a>[22] Blender Foundation (2019). <em>blender.org - Home of the Blender project - Free and Open 3D Creation Software</em>. [online] blender.org. Available at: <a href="https://www.blender.org/" target="_blank" rel="external">https://www.blender.org/</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref23"></a>[23] Unity Technologies (2019). <em>Unity - Unity</em>. [online] Unity. Available at: <a href="https://unity.com/" target="_blank" rel="external">https://unity.com/</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref24"></a>[24] Creators3d.com. (2019). <em>Creators 3D - Jobs for Professional Artists</em>. [online] Available at: <a href="https://www.creators3d.com/online-viewer" target="_blank" rel="external">https://www.creators3d.com/online-viewer</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref25"></a>[25] Fishbb 冒泡的小鱼儿. (2019). <em>AR for Books</em>. [online] Available at: <a href="https://fishbb.github.io/article/isbn.html">https://fishbb.github.io/article/isbn.html</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref26"></a>[26] Fishbb 冒泡的小鱼儿. (2019). <em>Static AR for Books by Dan Lou</em>. [online] Available at: <a href="https://fishbb.github.io/ar/isbn.html">https://fishbb.github.io/ar/isbn.html</a> [Accessed 28 Aug. 2019].</p>
+<p><a id="ref27"></a>[27] Fishbb 冒泡的小鱼儿.  (2019). <em>SLAM AR for Books by Dan Lou</em>. [online] Available at: <a href="https://fishbb.github.io/ar/isbn8.html">https://fishbb.github.io/ar/isbn8.html</a> [Accessed 28 Aug. 2019].</p>
+<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><h3 id="Purpose"><a href="#Purpose" class="headerlink" title="Purpose"></a>Purpose</h3><p>The purpose of this paper is to identify a light and scalable AR solution to enhance library collections.</p>
+<h3 id="Design-methodology-approach"><a href="#Design-methodology-approach" class="headerlink" title="Design/methodology/approach"></a>Design/methodology/approach</h3><p>The author first did research to identify the major obstacle in creating a scalable AR solution. Next, she explored possible workaround methods and successfully developed two prototypes that make the current web-based AR work with ISBN barcode. </p>
+<h3 id="Findings"><a href="#Findings" class="headerlink" title="Findings"></a>Findings</h3><p>Libraries have adopted Augmented Reality (AR) technology in recent years mainly by developing mobile applications for specific education or navigation programs. <a href="#ref1">[1]</a> Yet we have not seen a straight-forward AR solution to enhance a library collection. One of the obstacles lies in finding a scalable and painless solution to associate special AR objects with physical books. At title level, books already have their unique identifier – the ISBN number. Unfortunately, marker-based AR technology only accept two-dimensional (2-D) objects, not the one-dimensional (1-D) EAN barcode (or ISBN barcode) used by books, as markers for technical reasons. In this article, the author shares her development of two prototypes to make the web-based AR work with the ISBN barcode. With the prototypes, a user can simply scan the ISBN barcode on a book to retrieve related AR content. </p>
+<h3 id="Research-limitations-implications"><a href="#Research-limitations-implications" class="headerlink" title="Research limitations/implications"></a>Research limitations/implications</h3><p>This paper mainly researched and experimented with web-based AR technologies in the attempt to identify a solution that is as platform-neutral as possible, and as user-friendly as possible. </p>
+<h3 id="Practical-implications"><a href="#Practical-implications" class="headerlink" title="Practical implications"></a>Practical implications</h3><p>The light and platform-neutral AR prototypes discussed in this paper have the benefits of minimum cost on both the development side and the experience side. A library does not need to put any additional marker on any book to implement the AR. A user does not need to install any additional applications in his/her smartphone to experience the AR. The prototypes show a promising future where physical collections inside libraries can become more interactive and attractive by blurring the line of reality and virtuality. </p>
+<h3 id="Social-implications"><a href="#Social-implications" class="headerlink" title="Social implications"></a>Social implications</h3><p>The paper can help initiate the discussion on applying web-based AR technologies to library collections.</p>
+<h3 id="Originality-value"><a href="#Originality-value" class="headerlink" title="Originality/value"></a>Originality/value</h3><p>This paper is the first to share the development experience of a web-based AR solution that works with ISBN barcode. </p>
+<h2 id="Keywords"><a href="#Keywords" class="headerlink" title="Keywords"></a>Keywords</h2><p>Augmented Reality, API, Web-based AR, Web-based Barcode Scanner, Web-based Barcode Reader, Makerless AR, Marker-based AR, ISBN Barcode, Collections, Books</p>
+<h2 id="Author-Accepted-Manuscript-AAM-Deposit-License"><a href="#Author-Accepted-Manuscript-AAM-Deposit-License" class="headerlink" title="Author Accepted Manuscript (AAM) Deposit License"></a>Author Accepted Manuscript (AAM) Deposit License</h2><p>Emerald allows authors to deposit their AAM under the Creative Commons Attribution Non-commercial International Licence 4.0 (CC BY-NC 4.0). To do this, the deposit must clearly state that the AAM is deposited under this licence and that any reuse is allowed in accordance with the terms outlined by the licence. To reuse the AAM for commercial purposes, permission should be sought by contacting permissions@emeraldinsight.com.<br>For the sake of clarity, commercial usage would be considered as, but not limited to:<br>o       Copying or downloading AAMs for further distribution for a fee;<br>o       Any use of the AAM in conjunction with advertising;<br>o       Any use of the AAM by for promotional purposes by for-profit organisations;<br>o       Any use that would confer monetary reward, commercial gain or commercial exploitation.<br>Emerald appreciates that some authors may not wish to use the CC BY-NC licence; in this case, you should deposit the AAM and include the copyright line of the published article. Should you have any questions about our licensing policies, please contact permissions@emeraldinsight.com.</p>
+
+    
+  </div>
+</article>
+
+</div>
+
+
+  <div class="text-center donation">
+    <div class="inner-donation">
+      <span class="btn-donation">微信扫一扫</span>
+      <div class="donation-body">
+        <div class="tip text-center">扫一扫，支持fishbb</div>
+        <ul class="theme.donation.items.length">
+        
+          <li class="item">
+            <img src="/images/qr-wechat.png" alt="">
+          </li>
+        
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <a id="backTop" class="back-top">
+    <i class="icon-angle-up"></i>
+  </a>
+
+
+
+
+  <div class="modal" id="modal">
+  <span id="cover" class="cover hide"></span>
+  <div id="modal-dialog" class="modal-dialog hide-dialog">
+    <div class="modal-header">
+      <span id="close" class="btn-close">Close</span>
+    </div>
+    <hr>
+    <div class="modal-body">
+      <ul class="list-toolbox">
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/archives/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              博客
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/article"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              Article
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/project"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              Project
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="http://fishbb.pythonanywhere.com/blog/"
+              rel="noopener noreferrer"
+              target="_blank"
+              >
+              Blog
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/about/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              About
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/atom.xml"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              RSS
+            </a>
+          </li>
+        
+          <li class="item-toolbox">
+            <a
+              class="CIRCLE"
+              href="/search/"
+              rel="noopener noreferrer"
+              target="_self"
+              >
+              Search
+            </a>
+          </li>
+        
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+
+
+  
+      <div class="fexo-comments comments-page">
+    
+  <section class="disqus-comments">
+    <div id="disqus_thread">
+      <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+  </section>
+
+  <script>
+    var disqus_shortname = 'fishbb-1';
+    
+    var disqus_url = 'http://fishbb.github.io/article/ARBarcode.html';
+    
+    (function(){
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+
+  <script id="dsq-count-scr" src="//fishbb-1.disqus.com/count.js" async></script>
+
+
+
+    
+
+
+
+
+  </div>
+
+  
+
+  <script type="text/javascript">
+  function loadScript(url, callback) {
+    var script = document.createElement('script')
+    script.type = 'text/javascript';
+
+    if (script.readyState) { //IE
+      script.onreadystatechange = function() {
+        if (script.readyState == 'loaded' ||
+          script.readyState == 'complete') {
+          script.onreadystatechange = null;
+          callback();
+        }
+      };
+    } else { //Others
+      script.onload = function() {
+        callback();
+      };
+    }
+
+    script.src = url;
+    document.getElementsByTagName('head')[0].appendChild(script);
+
+  }
+
+  window.onload = function() {
+    loadScript('/js/bundle.js?235683', function() {
+      // load success
+    });
+  }
+  
+</script>
+
+</body>
+</html>
